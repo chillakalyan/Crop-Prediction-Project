@@ -1,0 +1,6 @@
+Python
+HTML & CSS (front end)
+flask
+numpy
+pandas
+scikit-learn
