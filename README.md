@@ -14,13 +14,29 @@ This project uses machine learning to recommend the most suitable crop to grow b
 
 ## 🧪 How to Run
 
-### 1. Clone the Repository
+### Step 1- Clone the Repository
 ```bash
 git clone https://github.com/your-username/Crop-Prediction-Project.git
 cd Crop-Prediction-Project
+```
+### Step 2- Create a Virtual Environment
+```bash
+python -m venv venv
+```
+### Step 3- Install the requirements
+```bash
+pip install -r requirements.txt
+```
+### Step 4- Train the Model
+```bash
+python model.py
+```
+### Step 5- Run the Flask App
+```bash
+python app.py
+```
 
-conda create -n cropenv python=3.8 -y
-conda activate cropenv
+
 
 
 
